@@ -76,7 +76,7 @@ img{
     border-radius: 5%;
 }
 img:hover{
-    animation: zoom-in 3s ease 1;
+
 }
 @keyframes zoom-in{
     0%{
