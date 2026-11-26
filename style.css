@@ -76,6 +76,7 @@ img{
     border-radius: 5%;
 }
 img:hover{
+    animation: zoom-in;
 
 }
 @keyframes zoom-in{
@@ -88,9 +89,8 @@ img:hover{
 h2{
     color: rgb(216, 216, 226);
 }
-article{
-    
-}
+
+
 .card{
     color: brown;
 
