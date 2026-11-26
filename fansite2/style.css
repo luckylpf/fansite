@@ -125,7 +125,7 @@ img{
     padding: 20px;
 
 }
-
+/*------------------------realisation-------------------------*/
 .gallery{
     display: flex;
     justify-content: center;
@@ -146,10 +146,80 @@ img{
     object-fit: cover;
 
 }
+
 .gallery img:hover{
     filter: grayscale(1);
     transform: scale(1.03);
 }
+
+/*------------------------social-------------------------*/
+
+
+#picto{
+
+    gap: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: beige; 
+}
+/*
+.fa-x-twitter{
+    font-size: 100px;
+    color: beige; 
+}
+.fa-youtube{
+    font-size: 100px;
+    color: beige; 
+}
+.fa-instagram{
+    font-size: 100px;
+    color: beige; 
+}
+
+*/
+
+
+/*------------------------photonelly-------------------------*/
+
+.containeure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    gap: 10px;
+    padding: 5px;
+}
+
+.containeure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Version téléphone */
+
+@media only screen and (max-width: 770px) {
+    .containeure {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+
 
 footer{
 
@@ -157,6 +227,7 @@ footer{
     padding: 5px;
     background-color: rgb(30,30,30);
 
-    margin-bottom: 0px;
-    margin-top: 100px;
+    margin: 0px;
+    
 }
+

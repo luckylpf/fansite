@@ -95,7 +95,7 @@ a{
 a:hover{
     color: beige;
 }
-img{
+article img{
     width: 300px;
     height: 300px;
     object-fit: cover;
