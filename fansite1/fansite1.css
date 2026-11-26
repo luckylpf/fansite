@@ -192,3 +192,16 @@ dd {
   padding: 0;
   margin: 0 0 1rem 0;
 }
+
+
+
+
+
+/* Changement de couleur des icones dans le footer */
+.site-footer .fa-x-twitter,
+.site-footer .fa-instagram {
+  color: rgb(187, 104, 10);
+}
+
+
+
