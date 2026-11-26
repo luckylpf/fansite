@@ -179,6 +179,50 @@ img{
 */
 
 
+/*------------------------photonelly-------------------------*/
+
+.containeure{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5px;
+    gap: 5px;
+     
+}
+
+@media only screen and (max-width:770px){
+
+    .containeure{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .column{
+        width: 100%;
+    }
+}
+
+.containeure img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
 footer{
 
     border-width: 5px;
