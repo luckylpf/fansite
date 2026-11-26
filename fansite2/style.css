@@ -91,9 +91,7 @@ header{
 
 }
 
-.card {
 
-}
 a{
     color: rgb(187, 104, 10);
     text-decoration: none;
@@ -113,9 +111,7 @@ a:hover{
     margin-right: 15px;
 
 }
-img:hover{
-   
-}
+
 @keyframes zoom-in{
     
 
@@ -124,9 +120,7 @@ img:hover{
 h2{
     color: rgb(216, 216, 226);
 }
-article{
-    
-}
+
 .card{
     color: brown;
 
@@ -140,4 +134,4 @@ footer{
 
     margin-bottom: 0px;
     margin-top: 100px;
-}0
+}
